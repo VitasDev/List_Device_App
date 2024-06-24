@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">List_Device_App</string>
+    <string name="viktor_kolesnichenko">Viktor Kolesnichenko</string>
+    <string name="some_problems">Some problems with server or your internet!</string>
+    <string name="reset">Reset</string>
+    <string name="empty_list">Empty List!</string>
+    <string name="do_you_want_to_delete_this_item">Do you want to delete this item?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Details Data -->
+    <string name="sn">SN: %1$s</string>
+    <string name="mac_address">MAC Address: %1$s</string>
+    <string name="firmware">Firmware: %1$s</string>
+    <string name="model">Model: %1$s</string>
+    <string name="home_number">Home Number %1$s</string>
+
+    <!-- Devices -->
+    <string name="sercomm_g450">Sercomm G450</string>
+    <string name="sercomm_g550">Sercomm G550</string>
+    <string name="micasaverde_veralite">MiCasaVerde VeraLite</string>
+    <string name="sercomm_na900">Sercomm NA900</string>
+    <string name="sercomm_na301">Sercomm NA301</string>
+    <string name="sercomm_na930">Sercomm NA930</string>
+
+    <!-- Device Models -->
+    <string name="vera_edge">Vera Edge</string>
+    <string name="vera_secure">Vera Secure</string>
+    <string name="vera_plus">Vera Plus</string>
+</resources>

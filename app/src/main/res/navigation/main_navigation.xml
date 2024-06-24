@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.app.list_device_app.presentation.device_list.ListFragment"
+        android:label="ListFragment">
+        <action
+            android:id="@+id/action_listFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.app.list_device_app.presentation.device_detail.DetailsFragment"
+        android:label="DetailsFragment">
+        <argument
+            android:name="deviceDetails"
+            app:argType="com.app.list_device_app.domain.model.DeviceDetails" />
+    </fragment>
+</navigation>
